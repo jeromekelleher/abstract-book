@@ -56,6 +56,7 @@ class Abstract:
         text = textwrap.fill(md_esc(self.text))
         print(text, file=out)
         print(file=out)
+        print("\n\\newpage\n", file=out)
 
 
 class AbstractBook:
